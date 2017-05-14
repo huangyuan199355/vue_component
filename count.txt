@@ -1,0 +1,34 @@
+<div id="app1">
+		<mycomponent v-on:incream="increamtotal"></mycomponent>
+		<mycomponent></mycomponent>
+		<mycomponent></mycomponent>
+		<p>{{total}}</p>
+	</div>
+	<script>
+	Vue.component('mycomponent',{
+		template:'<button v-on:click="incream">{{counter}}</button>',
+		data:function(){
+			return{
+				counter:0
+			}
+		},
+		methods:{
+			incream:function(){
+				this.counter += 1
+				this.$emit('incream')
+			}
+		}
+	})
+	new Vue({
+		el:'#app1',
+		data:{
+			total:0
+		},
+		methods:{
+			increamtotal:function(){
+				this.total += 1
+
+			}
+		}
+	})
+	</script>
