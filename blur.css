@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	
+}
+.hot{
+	position: relative;
+	margin: auto;
+	width: 874px;
+	background: white;
+	margin: 13px auto;
+}
+.hot-pics{
+	height: 382px;
+	overflow: hidden; 
+	position: relative;
+}
+
+.hot-pics ul{
+	list-style: none;
+	position: absolute;
+}
+.hot-pics img{
+	width: 874px;
+	height: 382px;
+}
+.hot-bar{
+	position: absolute;
+	height: 30px;
+	width: 874px;
+	background: gray;
+	bottom: 2px;
+	opacity: 0.5;
+}
+.hot-bar ul{
+	text-align: center;
+	margin-top: 6px;
+
+}
+.hot-bar li{
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	border-radius: 7px;
+	background: #fff;
+	cursor: pointer;
+	margin: 0 5px;
+}.hot-bar li[class=current]{
+	background: #D968C0;
+}
+
+	

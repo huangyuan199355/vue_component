@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Microsoft YaHei';
+}
+body{
+	background: url('./img/bg.png');
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top-img{
+	position: relative;
+	height: 179px;
+	background: url('./img/top.jpg');
+}
+.title{
+	font-size: 40px;
+	padding-left: 70px;
+	letter-spacing: 5px;
+	line-height: 170px;
+}
+.nav{
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+}
+.nav ul{
+	color: black;
+	list-style: none;
+	padding: 5px;
+	background:#EEE0E5; 
+}
+.nav li{
+	float: left;
+	margin-right: 10px;
+}
+.nav a, .dropdown-btn{
+	display: inline-block;
+	text-decoration: none;
+	background: #EEE0E5;
+	color: black;
+}
+.nav a:hover, .dropdown .dropdown-btn:hover{
+	color: white;
+}
+.main{
+	margin: auto;
+	background: white
+}
+.dropdown{
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
