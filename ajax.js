@@ -1,5 +1,5 @@
 $(function(){
-		var url='./goods_3.php';
+		var url='./goods.php';
 		var option = '<option value="0">未选择</option>';
 		var $sel1=$('.sel1');
 		var $sel2=$('.sel2');

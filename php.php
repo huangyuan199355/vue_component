@@ -1,3 +1,4 @@
+<?php
 $arr=array(
 	array('id'=>'1','name'=>'数码产品','pid'=>'0'),
 	array('id'=>'2','name'=>'家电','pid'=>'0'),
